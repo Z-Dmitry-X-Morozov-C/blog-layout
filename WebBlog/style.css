@@ -1,0 +1,163 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #bbbbbb;
+}
+
+main {
+  display: flex;
+}
+
+.main_cont {
+  padding: 32px 32px;
+}
+
+.main_bg {
+  width: 40%;
+  height: 100%;
+}
+
+.main_bg > img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 15px 4px 150px 0px rgba(90, 69, 254, 0.25);
+}
+
+span {
+  font-size: 48px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-wrapper-1 > p {
+  width: 100%;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 26.4px */
+  letter-spacing: -0.24px;
+  color: #FFF;
+}
+
+.text-wrapper-1 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.text-cont-1 {
+  color:#fff;
+  font-size: 40px;
+}
+
+.text-cont {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 40px;
+  width: 572px;
+  height: 88px;
+  line-height: 110%;
+}
+
+.text-cont-2 > p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 668px;
+  height: 220px;
+  margin-top: 24px;
+  letter-spacing: -0.2px; 
+}
+
+.text-cont-3 > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.2px; 
+  width: 668px;
+  height: 90px;
+
+}
+
+.text-cont-4 > p {
+  font-size: 20px;
+  font-weight: 400;
+  width:668px;
+  height: 120px;
+  line-height: 150%;
+  letter-spacing: -0.2px;
+}
+
+.dvadva {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+  background-color: #fff;
+  border-radius: 100px;
+  width: 190px;
+  height: 51px;
+  padding: 12px 24px;
+}
+
+.button:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.button > .p-1 {
+  outline: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+  line-height: 45px;
+}
+
+.button-2 {
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+  background-color: #121212;
+  border-radius: 100px;
+  width: 190px;
+  height: 51px;
+  padding: 12px 24px;
+}
+
+.button-2:hover {
+  cursor: pointer;
+}
+
+.button-2 > .p-2 {
+  outline: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+  line-height: 45px;
+} 
